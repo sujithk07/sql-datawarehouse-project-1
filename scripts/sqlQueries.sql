@@ -1,4 +1,10 @@
-use datawarehouse;
+CREATE DATABASE datawarehouse;
+
+CREATE Schema bronze;
+
+CREATE Schema silver;
+
+CREATE Schema gold;
 
 CREATE TABLE bronze.crm_cust_info(
 cst_id INT,
